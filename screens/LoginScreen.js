@@ -39,8 +39,6 @@ export default function LoginScreen() {
             }
         } catch (error) {
             Alert.alert("Error", error.message);
-        } finally {
-            setLoading(false);
         }
     };
 
